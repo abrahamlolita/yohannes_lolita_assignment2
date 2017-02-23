@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!-- Lolita Yohannes
+COMM 644 - Assignement 2 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<script>
+//PART I
+//STEP 1
+//var firstName = window.prompt("Enter Your Name");
+//window.alert(firstName.length);
+    
+//STEP 2
+//var name = window.prompt("What is your name?");
+//var x = window.prompt("Please enter a number to find a letter in your name?");
+//window.alert(name.charAt(x));
+
+//STEP 3
+//var firstName = window.prompt("What is your first name?");
+//var lastName = window.prompt("What is your last name?");
+//window.alert("Your name is: " + firstName + " " + lastName);
+    
+//STEP 4
+//var x = "The quick brown fox jumps over the lazy dog";
+//window.alert(x.indexOf("fox"));
+    
+//STEP 5
+//var x = "The quick brown fox jumps over the lazy fox";
+//window.alert(x.lastIndexOf("fox"));
+
+//STEP 6
+//var x = "The quick brown fox jumps over the lazy dog";
+//var fullName = window.prompt("What is your full name?");
+//window.alert(x.replace("the lazy dog", fullName));
+    
+//STEP 7
+//var x = "The quick brown fox jumps over the lazy dog";
+//var word = window.prompt("Enter a word you would like to find");
+//window.alert(x.search(word));
+
+//STEP 8
+//var old_string = "The quick brown fox jumps over the lazy dog";
+//var new_string = old_string.substr(31, 43);
+//window.alert(new_string.toUpperCase());
+
+//STEP 9
+//var x = "    THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG     ";
+//var y = x.trim();
+//window.alert(y.toLowerCase());
+
+//STEP 10
+//var x = "the quick brown fox jumps over the lazy dog";
+//var y = x.charAt(0).toUpperCase();
+//window.alert(x.replace("t",y));  
+    
+//PART II
+//STEP 1
+//var num = window.prompt("Enter any number");
+//window.console.log(Math.abs(num));   
+
+//STEP 2
+//var num = window.prompt("Enter any decimal number");
+//window.console.log(Math.ceil(num)); 
+
+//STEP 3
+//var num = window.prompt("Enter any decimal number");
+//window.console.log(Math.floor(num)); 
+
+//STEP 4
+//var x = window.prompt("Enter 5 comma delimited numbers");
+//var num1 = (x.charAt(0));
+//var num2 = (x.charAt(2));
+//var num3 = (x.charAt(4));
+//var num4 = (x.charAt(6));
+//var num5 = (x.charAt(8));
+//window.console.log("The largest number is " + Math.max(num1, num2, num3, num4, num5));
+//window.console.log("The smallest number is " + Math.min(num1, num2, num3, num4, num5));
+
+//STEP 5
+//var num = window.prompt("Enter any number");
+//window.console.log(Math.sqrt(num));
+    
+
+//Part 2 - Date and Date Functions
+//STEP 6
+//var currentDate = new Date();
+//window.console.log(currentDate.toDateString());
+    
+//STEP 7
+/*var numDays = new Date();
+var numMonth = numDays.getMonth();
+if (numMonth == 0) {
+    window.console.log("January: " + 31);
+} else if (numMonth == 1){
+    window.console.log("February: " + 28);
+} else if (numMonth == 2){
+   window.console.log("March: " + 31);
+} else if (numMonth == 3){
+    window.console.log("April: " + 30);
+} else if (numMonth == 4)
+       {window.console.log("May: " + 31);
+} else if (numMonth == 5) {
+     window.console.log("June: " + 30);
+} else if (numMonth == 6){
+    window.console.log("July: " + 31);
+} else if (numMonth == 7) {
+    window.console.log("August: " + 31);
+} else if (numMonth == 8){
+    window.console.log("September: " + 30);
+} else if (numMonth == 9){
+ window.console.log("October: " + 31);
+} else if (numMonth == 10){
+ window.console.log("November: " + 30);
+} else if (numMonth == 11){
+ window.console.log("December: " + 31);
+ } 
+ */
+
+//STEP 8
+/*var monthName = new Date();
+    switch (monthName.getMonth()) {
+    case 0:
+       window.console.log("January");
+         break;
+     case 1:
+       window.console.log("February");
+         break;
+     case 2:
+       window.console.log("March");
+         break;
+     case 3:
+        window.console.log("April");
+         break;
+     case 4:
+          window.console.log("May");
+          break;
+     case 5:
+        window.console.log("June");
+          break;
+     case 6:
+        window.console.log("July");
+          break;
+     case 7:
+        window.console.log("August");
+          break;
+     case 8:
+        window.console.log("Septemper");
+           break;
+     case 9:
+        window.console.log("October");
+            break;
+     case 10:
+        window.console.log("November");
+            break;
+     case 11:
+         window.console.log("December");
+            break;
+       }
+    */
+ 
+//STEP 9
+//var wknDate = new Date();
+//    if (wknDate.getDay() === 6 || wknDate.getDay() === 0) {
+//        window.console.log("the date is a weekend");
+//        } else {
+//        window.console.log("the date is not a weekend");
+//       }
+    
+//STEP 10
+/*
+var currentDate = new Date();
+currentDate.setDate(currentDate.getDate() - 1);
+var yestDay = currentDate.getDay();
+if (yestDay == 0) {
+ window.console.log("Sunday");
+} else if (yestDay == 1) {
+ window.console.log("Monday");
+} else if (yestDay == 2) {
+ window.console.log("Tuesday");
+} else if (yestDay == 3) {
+ window.console.log("Wednesday");
+} else if (yestDay == 4) {
+window.console.log("Thursday");
+} else if (yestDay == 5){
+ window.console.log("Friday");
+} else if (yestDay == 6) {
+ window.console.log("Saturday");
+}
+*/
+
+//STEP 11
+//var currentDate = new Date();
+//window.console.log(currentDate.toDateString().substr(0,1));
+
+    
+//Part 3 - Conditional Logic and Looping Operations 
+//STEP 12
+//var num1 = window.prompt("Enter a number");
+//var num2 = window.prompt("Enter a second number");
+//    if (num1 > num2) {
+//        window.console.log("The larger number is " + num1);
+//       } else if (num2 > num1) {
+//        window.console.log("The larger number is " + num2);
+//       } else {
+//        indow.console.log("The numbers are equal");
+//       }
+
+//STEP 13
+//var stdntMarks = [80, 77, 88, 95, 68];
+//var stdntnames = ["Ursula", "Paul", "Henry", "Tabitha", "Lucy"];
+//var stdntGrades = [];
+//var i;
+//window.console.log("Name\t", "Grade");
+//      for (i = 0; i < stdntMarks.length; i++) {
+//         if (stdntMarks[i] >= 90) {
+//              stdntGrades[i] = "A";
+//         } else if (stdntMarks[i] < 90 && stdntMarks[i] >= 80) {
+//             stdntGrades[i] = "B";
+//        } else if (stdntMarks[i] < 80 && stdntMarks[i] >= 70) {
+//            stdntGrades[i] = "C";
+//       } else if (stdntMarks[i] < 70 && stdntMarks[i] >= 60) {
+//             stdntGrades[i] = "D";
+//         } else {
+//            stdntGrades[i] = "F";
+//       }    
+//         window.console.log(stdntnames[i] + "\t", stdntGrades[i]);
+//    }
+
+//STEP 14
+//var num;
+// for (num = 1; num <= 15; num += 1) {
+//           if (num % 2 === 0) {
+//               window.console.log(num + " is an even number");
+//          } else {
+//               window.console.log(num + " is an odd number");
+//    }
+//}
+    
+
+//STEP 15
+//var i;
+//    for (i = 1; i < 101; i++) {
+//      if ((i % 3 === 0) && (i % 5 === 0)){
+//        window.console.log("FizzBuzz");
+//       }
+//       else if (i % 3 === 0) {
+//       window.console.log("Fizz");
+//        }
+//       else if (i % 5 === 0) {
+//        window.console.log("Buzz");
+//       } 
+//  }
+
+//Part 4 - The “Hitchhiker’s Guide to the Galaxy” Game (5 points)
+/*var ready = window.confirm("Are you ready to play the game?");
+        if (ready) {
+            window.alert("Awesome, our hero is waiting!");
+        } else {
+            window.alert("Too bad, we’re going to play anyway because our hero desperately needs your help!");
+        }
+window.alert("You are in a dark, dingy, and humid cave searching for the lost treasure of Captain Chingadera. You are disoriented, lost, hungry and extremely thirsty. You see a speck of light in the distance ahead of you, something shimmering to your right, and the sound of running water to your left. Your back is against the wall...");
+    
+var direction = window.prompt("Which direction would you like to head (please enter forward, left, or right).");
+    
+switch (direction) {
+    case "left":
+      window.alert("Your thirst has gotten the better of you. You trip on a rock, hit your head, and fall into a pool of water and drown!");
+      break;
+    case "forward":
+      window.alert("You walk about 100 yards and safely make your way out of the cave.");
+      break;
+    case "right":
+      window.alert("You found the gold! You walk into a small room and see thousands of gold coins, jewels, chalices, and more. You jump into the pile of gold in celebration and immediately a hidden door slams down and traps you in the room forever!");
+      break;
+    default:
+      window.alert("The ghost of Captain Chingadera has condemned you to eternal damnation and you shall now burn in the hot excoriation for lifeless lowlifes for not choosing the correct option….loser.");
+}
+    var gameRate = window.prompt("Please rate the game on a scale of 1 to 10");
+        if (!isNaN(gameRate)) {
+            if (gameRate >= 6 && gameRate <= 10) {
+                window.alert("Thank you, we will continue to make improvements to the game!");
+            } else if (gameRate >= 1 && gameRate <= 5) {
+                window.alert("Whatever, you weren't very good at this game anyway!");
+            } else {
+                window.alert("You didn't enter a number between 1 and 10!");
+            }
+        } else {
+            window.alert("You didn't enter a number!")
+        }
+*/
+    
+//Part 5 - The “Coin Flip” Game (5 points)
+// var coinFlip = Math.random();
+// var choice = prompt("Please select Heads or Tails?");
+//        if (coinFlip) {
+//            if (choice == "heads") {
+//                window.alert("The flip was heads and you chose heads...you win!");
+//            } else {
+//                window.alert("The flip was heads but you chose tails...you lose!");
+//            }
+//        } else {
+//            if (choice == "heads") {
+//                window.alert("The flip was tails but you chose heads...you lose!");
+//            } else {
+//                window.alert("The flip was tails and you chose tails...you win!");
+//            }
+//        }
+    
+//Part 6 - The “Coin Flip” Game Redux (5 points)
+//var coinFlip;
+//    for (var i = 1; i <= 10; i++) {
+//        coinFlip = Math.round(Math.random());
+//        if (!coinFlip) {
+//            window.console.log("Heads");
+//        } else {
+//            window.console.log("Tails");
+//        }
+//    }
+
+//Part 7 - The “Coin Flip Streak” Game (5 points)
+//var coinFlip;
+//    do {
+//        coinFlip = Math.round(Math.random());
+//        if (coinFlip) {
+//            window.console.log("Heads");
+//        } else {
+//            window.console.log("You finally got Tails!");
+//        }
+//    } while (coinFlip);
+
+//Part 8 – Looping a Triangle (5 points)
+//var triangle;
+//    for (triangle = "#"; triangle.length <= 7; triangle += "#") {
+//           window.console.log(triangle);
+//    }
+
+//Part 9 – Odd or Even?
+//var num;
+//for (num = 0; num <= 15; num++) {
+//  if ((num % 2) != 1) {
+//   window.console.log(num + " is even");
+//      } else {
+//   window.console.log(num + " is odd");
+//    }
+//}
+</script>
+    
+</body>
+</html>
